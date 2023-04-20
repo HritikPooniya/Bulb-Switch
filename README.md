@@ -15,5 +15,9 @@ Github link :: https://github.com/HritikPooniya;
 Contact me :: pooniyarpsingh@gmail.com;
 
 
+#About
+
+In this webpage made by the use of HTML, CSS and JAVASCRIPT.
+
 
 
