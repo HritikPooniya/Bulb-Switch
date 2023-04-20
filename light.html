@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb switch</title>
+
+    <style>
+        .img{
+            width: 20%;
+            
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        .btn{
+            background-color: green;
+            padding: 2vh;
+            border-radius: 8px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          
+
+        }
+        .btn:hover{
+            color: aqua;
+            background-color: blue;
+            
+        }
+    </style>
+    
+</head>
+<body style="background-color: black;">
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif; color: aliceblue; text-align: center;">Live your Moment</h1>
+
+    <img class="img" id="img" src="img/front.avif" alt="">
+    <button class="btn" id="btn">start</button>
+
+    <h2 id="name">Hritik</h2>
+
+    <script>
+        let bt = document.getElementById("btn");
+        let bulb = document.getElementById("img");
+        bt.addEventListener('click',(e)=>{
+            if(bt.textContent.includes('start')){
+                bulb.src = "img/images.jpg"
+                bt.textContent = "Turn On"
+                
+            }
+            else if(bt.textContent.includes('On')){
+                bulb.src = "img/images1.jpg"
+                bt.textContent = "Turn Off"
+            }
+            else{
+                bulb.src = "img/images.jpg"
+                bt.textContent = "Turn On"
+            }
+        })
+        
+            
+            
+            
+       
+    </script>
+    
+</body>
+</html>
