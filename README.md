@@ -15,6 +15,8 @@ Github link :: https://github.com/HritikPooniya;
 Contact me :: pooniyarpsingh@gmail.com;
 
 
+DEMO link: https://hritikpooniya.github.io/Bulb-Switch/
+
 #About
 
 In this webpage made by the use of HTML, CSS and JAVASCRIPT.
